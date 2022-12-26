@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #F2CCC3;
+        
+}
+
+header {  
+    background: linear-gradient(to right,#F2CCC3, #E78F8E, #e7706e);      
+    
+}
+
+header > h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 390;
+    text-align: center;
+    padding: 2rem;
+    
+} 
+
+header > nav > a {
+    font-weight: 200;
+    color:#FFE6E8;
+    background:linear-gradient(to right,#F2CCC3, #E78F8E, #e7706e);
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 0.3rem;
+    border-bottom: 0.1rem solid #FFE6E8;
+   
+}
+
+header > nav > a:hover {
+    color:#e74f4d;
+    font-size: 1.1rem;
+    font-weight: 900;
+    transition: 0.5s;
+    padding: 0.5rem;
+
+}
+
+header > nav > a :hover {
+    background-color: #FFE6E8;
+}
+
+#profile {
+    width: 7.5rem;    
+    border: 3px solid #fff;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+
+#secao {
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: 7.5rem 1rem 1rem 1rem;
+}
+
+
+#secao > h1 {
+    color: #e74f4d;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-top: 10rem;
+    padding-bottom: 1rem;
+      
+}
+
+#secao > p {
+    text-indent: 2rem;
+    text-align: justify;
+    line-height: 1.8rem;
+    margin: 1rem;
+}
+
+#secao > p > a {
+    text-decoration: none;
+    color: #e74f4d;
+}
+
+#pessoal > h1 {
+    color:#e74f4d;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+#pessoal > p {
+    text-indent: 2rem;
+    text-align: justify;
+    line-height: 1.8rem;
+    margin: 1rem;
+    padding-bottom: 2rem ;
+}
+
+#social > h1 {
+    color:#e74f4d;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+#social > a > img {    
+    max-width: 3rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+#contato > h1 {
+    color:#e74f4d;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+#contato > span {
+    padding: 0rem 0rem 2rem 1rem;
+           
+}
+
+.contatotxt {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+        
+}
